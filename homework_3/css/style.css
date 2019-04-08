@@ -1,0 +1,159 @@
+body {
+    font-family: "Payfair Display", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 901px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 70px 0px 100px 0px; 
+    padding: 0px;
+    text-align: center;
+}
+
+.nav-list li{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.nav-list a {
+    padding: 50px;
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+}
+
+.nav-list a:hover {
+    color: #03a9f4;
+}
+
+.content-section .content-class {
+    color: #b4ad9e;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.content-section .content-article:not(:nth-child(2n)){
+    margin-right: 50px;
+}
+
+.content-section .content-article{
+    margin: 0 auto;
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    text-align: left;
+    
+    margin-bottom: 114px;
+}
+
+.content-section h2{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+button {
+    border: none;
+    margin: 0px 0px 68px 360px; 
+    padding: 0;
+    background-color: #fff;
+    cursor: pointer;
+    width: 165px;
+    height: 60px;
+    border: 1px solid;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Payfair Display", sans-serif;
+}
+
+/* 
+body {
+    margin: 0 auto;
+    font-family: "Payfair Display", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 73px;
+    margin-bottom: 20px;
+    max-width: 1170px;
+ }
+
+ .nav-list {
+     font-style: 14px;
+     list-style: none;
+     margin: 0px 70px 100px 70px; 
+     text-align: center;
+     padding: 0;
+ }
+ 
+ .nav-list a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 28px;
+    display: block;
+ }
+
+ .nav-list li {
+     display: inline-block;
+     margin: 0 51px;
+ }
+
+ .nav-list a:hover {
+    color: #03a9f4;
+ }
+
+ .page-main {
+    margin: 0 auto;
+ }
+
+ .content-section {
+     margin-bottom: 37px;
+     text-align: center;
+ }
+
+ .content-article {
+    margin: 0 auto;
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    text-align: left;
+    margin-right: 56px;
+    margin-bottom: 114px;
+  }
+
+  img {
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  img + p{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 17px;
+    color: #b4ad9e;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  h3 {
+    font-size: 30px;
+    margin-bottom: 27px;
+    color: #626262;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+  }
+  
+  button {
+    padding: 15px 33px;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+  } */
