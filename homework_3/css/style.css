@@ -12,15 +12,18 @@ body {
     margin: 70px 0px 100px 0px; 
     padding: 0px;
     text-align: center;
+    font-size: 0;
 }
 
 .nav-list li{
+    font-size: 14px;
     display: inline-block;
     text-align: center;
 }
 
 
 .nav-list a {
+    display: block;
     padding: 50px;
     text-decoration: none;
     color: #626262;
@@ -31,14 +34,19 @@ body {
     color: #03a9f4;
 }
 
+.content-section {
+    font-size: 0;
+}
+
 .content-section .content-class {
     color: #b4ad9e;
     line-height: 17px;
     text-transform: uppercase;
+    font-size: 14px;
 }
 
 .content-section .content-article:not(:nth-child(2n)){
-    margin-right: 50px;
+    margin-right: 60px;
 }
 
 .content-section .content-article{
@@ -47,7 +55,7 @@ body {
     width: 420px;
     vertical-align: top;
     text-align: left;
-    
+    font-size: 14px;
     margin-bottom: 114px;
 }
 
@@ -56,9 +64,13 @@ body {
     line-height: 36px;
 }
 
+.content-img {
+    margin-bottom: 5px;
+}
+
 button {
-    border: none;
-    margin: 0px 0px 68px 360px; 
+    display: block;
+    margin: 0 auto; 
     padding: 0;
     background-color: #fff;
     cursor: pointer;
