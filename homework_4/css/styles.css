@@ -24,6 +24,7 @@ body {
 
 .page-navigation {
     padding: 40px 0;
+    margin-bottom: 74px;
 }
 
 .nav_menu {
@@ -31,12 +32,13 @@ body {
     margin: 0;
     padding: 0;
     vertical-align: middle;
-    margin-top: 8px;
+    padding: 8px;
 }
 
 .nav_menu li{
     float: left;
     margin-right: 30px;
+    list-style-type: none; 
 }
 
 .nav_menu li:last-child{
@@ -48,7 +50,6 @@ body {
 }
 
 .logo {
-    vertical-align: middle;
    display: inline-block;
    font-size: 30px; 
    line-height: 32px;
@@ -73,16 +74,13 @@ body {
     font-weight: 700;
 }
 
-.nav_menu li {
-    display: inline-block;
-}
-
 /* Main content */
 
 /* Featured products */
 
 .text_underline {
-    margin: 75px;
+    margin: 0;
+    margin-bottom: 74px;
 }
 
 .product_article{
@@ -92,13 +90,13 @@ body {
     width: 255px;
     height: 322px;
     margin-right: 30px;
-    margin-top: 30px;
+    margin-bottom: 30px; 
     font-size: 0;
     line-height: 32px;
     color: #ffffff; 
 }
 .news_name {
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 .product_article h3{
     font-size: 18px;
@@ -112,6 +110,9 @@ body {
     margin-right: 0;
 }
 
+.product_article:nth-child(n+4){
+    margin-bottom: 0;
+}
 .product_title {
     background-color: #323232;
     width: 201px;
@@ -152,7 +153,7 @@ h2::after {
     content: "";
     display: block;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: 32px; 
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
@@ -165,12 +166,14 @@ img {
     height: auto;
    }
 
+.featuret_products{
+    padding-bottom: 100px;
+}
 
 /* Latest news */
 
 .news_article {
     width: 350px;
-    font-size: 0;
     margin: 0;
     padding: 0;
     float: left;
@@ -181,8 +184,12 @@ img {
     margin-right: 0;
 }
 
+.news_img {
+    margin-bottom: 12px;
+}
+
 .news_article h3{
-    margin-top: 12px;
+    /* margin-top: 12px; */
     font-size: 18px;
     line-height: 26px;
 }
@@ -190,6 +197,10 @@ img {
 .news_article p{
     font-size: 14px;
     line-height: 26px;
+}
+
+.news_content {
+    margin-bottom: 8px;
 }
 
 .news_name::after {
@@ -202,7 +213,7 @@ img {
     background-color: #1abc9c;
 }
 
-button {
+.news_button {
     background-color: #4ec6ab;
     width: 160px;
     height: 50px;
@@ -211,7 +222,7 @@ button {
     color: #ffffff;
     border-radius: 3px;
     border: 0px;
-    margin-top: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    /* margin-top: 15px; */
 }
 
