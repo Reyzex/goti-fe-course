@@ -1,0 +1,122 @@
+
+
+.father {
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 400px;
+    background-color: #424242;
+}
+
+.childe1 {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   background-color: blue;
+}
+
+.childe1:hover{
+    position: absolute;
+    width: 120px;
+    height: 200px;
+    background-color: lawngreen;
+ }
+
+.childe2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    left: 150px;
+}
+
+.childe2:hover{
+    position: absolute;
+    width: 130px;
+    height: 50px;
+    background-color: olive;
+ }
+
+ .childe3:hover{
+    position: absolute;
+    width: 110px;
+    height: 200px;
+    background-color: palevioletred;
+ }
+
+ .childe4:hover{
+    position: absolute;
+    width: 70px;
+    height: 300px;
+    background-color: firebrick;
+ }
+
+ .childe5:hover{
+    position: absolute;
+    width: 170px;
+    height: 370px;
+    background-color: palevioletred;
+ }
+
+.childe3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    right: 0px;
+}
+
+.childe4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    bottom: 150px;
+}
+
+.childe5 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    top: 100px;
+    left: 100px;
+    transform: translate(50%,50%)
+}
+
+.childe6 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    top: 100px;
+    left: 250px;
+    transform: translate(50%,50%)
+}
+
+.childe7{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: khaki;
+    left: 0;
+    bottom: 0;
+}
+
+.childe8{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    left: 150px;
+    bottom: 0px;
+}
+
+.childe9{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lightcoral;
+    right: 0px;
+    bottom: 0px;
+}
