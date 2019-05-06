@@ -58,9 +58,9 @@
 /* h2 */
 
 .first_h2 {
-    display: flex;
     padding-top: 94px;
-    justify-content: center;
+    margin-bottom: 25px;
+    text-align: center;
     font-family: 'Kaushan Script', serif;
     line-height: 24px;
     font-weight: normal;
@@ -68,17 +68,17 @@
 }
 
 .second_h2 {
-    display: flex;
-    padding-top: 25px;
-    justify-content: center;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 36px;
     text-transform: uppercase;
+    margin-bottom: 60px;
 }
 
-.text_underline {
+.second_h2::after {
+    content: '';
     display: block;
     margin: 0 auto;
     margin-top: 42px;
@@ -95,11 +95,8 @@
     flex-wrap: wrap;
     height: 250px;
     align-content: space-between;
-    margin-top: 60px;
 }
-.items_text{
-    /* display: flex; */
-}
+
 .items_text {
     position: relative;
     padding-left: 50px;
@@ -188,6 +185,9 @@
 }
 
 /* team */
+.team {
+    padding-bottom: 80px;
+}
 
 .team_content { 
     padding-top: 40px;
@@ -213,7 +213,6 @@
  }
 
  .overlay {
-    background-image: linear-gradient( rgb(243,129,129) 0%,  rgb(252,227,138) 100%);
     position: absolute;
     width: 380px;
     height: 470px;
@@ -224,16 +223,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient( to bottom,rgba(252,227,138, 0.9) 0%,  rgba(243,129,129, 0.9) 100%);
+    transition: transform 0.2s linear, opacity 0.2s linear;
   }
 
 .team_items:hover .overlay {
-    opacity: 0.9;  
+    opacity: 1;  
     box-shadow: 10px 10px #95e1d3;
-    transition-duration: 500ms;
+    transform: translate(-10px,-10px);
 }
  
 .team_items:hover .team_img {
     transform: translate(-10px,-10px);
+}
+
+.team_img{
+    transition: transform 0.2s linear;
 }
 
 .team_img img {
@@ -290,8 +295,11 @@
     height: 56px;
 }
 
-.team_items_content h3 {
+.team_items_content {
     margin-top: 25px;
+}
+
+.team_items_content h3 {
     display: flex;
     justify-content: center;
     font-family: 'Montserat', sans-serif;
@@ -336,7 +344,7 @@
     align-items: center;
     border-top: 1px solid #cccccc;
     padding-top: 10px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     height: 63px;
 }
 
