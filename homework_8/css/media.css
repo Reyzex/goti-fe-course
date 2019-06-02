@@ -11,6 +11,10 @@
     .header-titles .header_h3 {
         padding: 0 10%;
     }
+
+    .logo{
+        padding-top: 120px;
+    }
 }
 
 
@@ -38,6 +42,7 @@
 
     .header-titles {
         padding-bottom: 74px;
+        height: 100%;
     }
 
     .header-titles .header_h2 {
@@ -113,4 +118,6 @@
         width: 25%;
         margin: 0 10px 40px;
     }
+
+
 }
