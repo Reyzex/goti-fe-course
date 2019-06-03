@@ -136,6 +136,7 @@ img {
     line-height: 26px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .partners {
@@ -186,6 +187,9 @@ img {
 }
 .partners .partner_name {
     margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
 }
 
 .partners .partner_info {
